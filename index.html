@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Campaign Glofy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulir Campaign Glofy</h1>
+    <p>Isi data di bawah ini untuk melanjutkan campaign bersama Glofy.</p>
+
+    <form id="glofyForm">
+      <label>Nama Lengkap:</label>
+      <input type="text" name="nama" placeholder="Contoh: Kak Ayu" required>
+
+      <label>Tanggal:</label>
+      <input type="text" value="" id="tanggal" disabled>
+
+      <label>No. Telepon:</label>
+      <input type="text" name="telepon" placeholder="08xxxxx" required>
+
+      <label>Upload Gambar Persetujuan:</label>
+      <input type="file" accept="image/*" id="imageUpload" capture="environment">
+
+      <button type="submit">Kirim Data</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
